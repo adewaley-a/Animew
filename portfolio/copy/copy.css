@@ -1,0 +1,249 @@
+.cover{
+    width: 100%;
+    height: 6em;
+    border: 1px solid rgb(255, 251, 3);
+    display: flex;
+    
+}
+.animew{
+    width: 20%;
+    background-color: black;
+}
+.home{
+    width: 40%;
+    background-color: black;
+    color: blanchedalmond;
+}
+.blank{
+    width: 20%;
+    background-color: black;
+}
+.buttons{
+    width: 20%;
+    background-color: black;
+    display: inline-flex;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black ;
+}
+.pop{
+    color: chartreuse;
+    font-family: monospace;
+    margin-left: 2%;
+    top:55px;
+    position: relative;
+    font-size: larger;
+    display: inline;
+}
+.pop:hover{
+    color: cornflowerblue;
+}
+.cards{
+    width: 100%;
+    height: 100%;
+    
+    margin-top: 7%;
+    display: grid;
+    gap: 5px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.123), rgb(0, 0, 0));
+   
+}
+.card{
+    background-color: seagreen;
+    height: 300px;
+    box-shadow: 8px 8px 12px black;
+}
+@media(min-width:900px){
+    .card{height: 350px;}}
+
+@media(min-width:500px){
+      .cards{grid-template-columns: repeat(2, 1fr);}
+}
+@media(min-width:900px){
+    .cards{grid-template-columns: repeat(4, 1fr);}
+}
+.the {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: larger;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 6%;
+    margin-right: 6%;
+}
+ul.the li.menu{
+    display: none;
+}
+@media(max-width:800px){
+    ul.the li{display: none;}
+}
+@media(max-width:1100px){
+    ul.the li{margin-top: 4.3%;}
+}
+@media(max-width:800px){
+   ul.the li.menu{
+       display: block;
+       margin-right: 10%;
+       margin-top: 3%;
+   }
+}
+@media(max-width:500px){
+    ul.the li.menu{
+        display: block;
+        margin-right: 30%;
+        margin-top: 10%;
+        height: 30px;
+        width: 30px;
+    }
+ }
+ @media(max-width:900px){
+     .cards{
+         margin-top: 12%;
+     }
+ }
+ @media(max-width:
+ 600px){
+    .cards{
+        margin-top: 22%;
+    }
+}
+
+
+.aw{
+    height: 120%;
+    width: 100%;
+    margin-left: 10%;
+    
+}
+.w{
+    height: 120%;
+    width: 200%;
+    margin-top: -10px;
+    margin-left: -49%;
+    display: none;
+}
+@media(max-width:900px){
+    .aw{
+        display: none;
+    }
+}
+@media(max-width:900px){
+    .w{
+        display: block;
+    }
+}
+.sert[type=text]{
+    width: 65%;
+    height: 30px;
+    background-color: rgb(209, 209, 208);
+    border-radius: 30px;
+    margin-top: 33px;
+    margin-left: 16%;
+    border: 2px solid  white;
+    transition: width 0.4s ease-in-out;
+    color: rgb(3, 3, 3);
+
+}
+.sert[type=text]:focus{
+    width:70%
+}
+.se{
+    height: 100px;
+    width: 90px;
+    margin-left: -15px;
+    margin-top: -10%;
+    display: none;
+    
+}
+@media(max-width:500px){
+    input{
+        display: none;
+    }
+}
+@media(max-width:500px){
+    .se{
+        display: block;
+    }
+}
+.back{
+    background: url("JJK.png");
+}
+@media(max-width:500px){
+    .back{
+        background-repeat: repeat-y round;
+        height: 900%;
+    }
+}
+.nar{
+    width: 100%;
+    height: 100%;
+}
+.nar:hover{
+    width: 105%;
+    height: 104%;
+    transition: 0.6s ease-in-out;
+}
+
+.dropdown-content{
+   
+    height: 100px;
+    position: absolute;
+    background-color: rgb(90, 90, 90);
+    min-width: 160px;
+    z-index: 1;
+    display: none;
+    color: blanchedalmond;
+    
+}
+.dropdown-content a{
+    text-decoration: none;
+    padding: 7.5px 7px;
+    color: blanchedalmond;
+    display: list-item;
+}
+.dropdown-content a:hover{
+    background-color: rgba(208, 255, 0, 0.123);
+}
+.show{display:block;
+    
+}
+.ser{
+    display: none;
+    width: 65%;
+    height: 30px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 30px;
+    margin-top: 33px;
+    margin-left: 16%;
+    border: 2px solid  white;
+    transition: width 0.4s ease-in-out;
+    color: rgb(3, 3, 3);
+    position: relative;
+    margin-right: 10%;
+    margin-left: -30%;
+    
+}
+.ser[type=text]:focus{
+    width:70%}
+.show{
+    display: block;
+}
+@media(min-width:500px){
+    .ser{
+        width: 200px;
+    }
+}
+@media(min-width:500px){
+    .ser[type=text]:focus{
+        width:135%
+    }
+}
+@media(max-width:500px){
+    .card{
+        height:85%;
+        width: 100%;
+        
+    }
+}
